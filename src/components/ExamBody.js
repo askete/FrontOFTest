@@ -7,7 +7,7 @@ import Cookies from "js-cookie";
 import { useEffect } from 'react';
 
 
-const  url = "https://jorgeiras.pythonanywhere.com/generate_test"
+const  url = "https://AsketeP.pythonanywhere.com/generate_test"
 
 function useWarnBeforeLeaving(message, shouldWarn) {
     useEffect(() => {
