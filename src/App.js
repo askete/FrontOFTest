@@ -5,6 +5,7 @@ import { HashRouter, Route, Routes, Navigate  } from 'react-router-dom';
 import MainRoute from './routes/MainRoute';
 import Login from './routes/Login'
 import Profile from './components/Profile';
+import Register from './components/Register';
 import About from './components/About';
 import { AuthProvider } from './context/AuthProvider';
 import { ProtectedRoute } from './routes/ProtectedRoute';
