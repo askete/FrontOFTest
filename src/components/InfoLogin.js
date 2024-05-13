@@ -39,7 +39,7 @@ function InfoLogin(){
                 <input className='inputLogin' type="email" placeholder="Email"  value={email}  onChange={handleEmailChange}/>
                 <input className='inputLogin' type="password" placeholder="Password" value={password} onChange={handlePasswordChange} />
                 <button onClick={handleClick}>ACCEDER</button>
-                <p>¿No estas registrado? <a>Registrate ahora</a></p>
+                <p>¿No estas registrado? <Link to="/register">Regístrate ahora</Link></p>
                 <p style={{color:'red', visibility: resultRequest === false ? 'hidden' : 'visible'}}>{resultErrorMessage}</p>
             </div>
             <div className="image-container shadow-sm rounded" >

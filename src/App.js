@@ -22,6 +22,8 @@ function App() {
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login /> } />
+          <Route path="/register" element={<Register /> } />
+
           <Route path="/" element={<Navigate replace to={Cookies.get('token')  ? "/examen" : "/login"} />}/>
           {/* Protected routes */}
           <Route element={<ProtectedRoute/>}>
