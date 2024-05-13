@@ -2,8 +2,7 @@ import './InfoLogin.css'
 import logo from '../assets/objetivofuncionario.jpg'
 import React, { useState } from "react"
 import { useAuth } from '../context/AuthProvider';
-
-
+import { Link } from 'react-router-dom'; 
 
 
 function InfoLogin(){
